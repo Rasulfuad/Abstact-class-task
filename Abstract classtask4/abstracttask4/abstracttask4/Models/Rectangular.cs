@@ -6,10 +6,8 @@ namespace abstracttask4.Models
     {
         private int _Width;
         private int _Length;
-        private int v1;
-        private object width;
-        private int v2;
-        private object length;
+    
+       
 
         public int Width
         {
@@ -50,6 +48,10 @@ namespace abstracttask4.Models
             this.Width = width;
 
             this.Length = length;
+        }
+
+        public Rectangular()
+        {
         }
 
         public override void CalcArea()

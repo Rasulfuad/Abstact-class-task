@@ -6,10 +6,6 @@ namespace abstracttask4
 {
     internal class Program
     {
-        private static int side;
-
-        public static int length { get; private set; }
-        public static int width { get; private set; }
 
         static void Main(string[] args)
         {
@@ -29,17 +25,13 @@ namespace abstracttask4
                         break;
                     case 1:
                         {
-                            Square num2 = new Square(side);
-
+                            Square num2 = new Square();
                             num2.CalcArea();
                         }
                         break;
                     case 2:
                         {
-                            Rectangular num2 = new Rectangular(width, length);
-
-
-
+                            Rectangular num2 = new Rectangular();
                             num2.CalcArea();
 
                         }
@@ -58,10 +50,8 @@ namespace abstracttask4
 
         }
     }
-
-    internal class width
-    {
-    }
 }
+
+
 
 

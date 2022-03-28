@@ -25,6 +25,10 @@ namespace abstracttask4.Models
             Side = side;
         }
 
+        public Square()
+        {
+        }
+
         public override void CalcArea()
         {
             Console.WriteLine("Square CalcArea method");
